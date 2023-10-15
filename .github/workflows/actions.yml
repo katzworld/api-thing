@@ -17,5 +17,5 @@ jobs:
           git config user.email "<>"
           wget -X GET https://api.tmwstw.io/faucet_data -O current.json
           git add current.json
-          git commit -snm "new data commit" || true
+          git commit -snm "fresh commit from api" || true
           git push origin main 
