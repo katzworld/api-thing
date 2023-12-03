@@ -2,8 +2,8 @@ name: Download and Push File
 on:
   push:
   workflow_dispatch:
-  schedule:
-  - cron: '25 */6 * * *'
+ # schedule:
+ # - cron: '25 */6 * * *'
 jobs: 
   build:
     name: get it 
